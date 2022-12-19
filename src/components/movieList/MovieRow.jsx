@@ -22,10 +22,11 @@ function MovieRow({ movieList }) {
       //   console.log(ml);
       //   ev.target.style.marginLeft = ml;
       //   console.log(ev.target.style.marginLeft);
-      setMarginLeft(
-        (prevMargin) =>
-          (edgeRatio < 0 && (prevMargin += 2)) || (prevMargin -= 2)
-      );
+      if (marginLeft)
+        setMarginLeft(
+          (prevMargin) =>
+            (edgeRatio < 0 && (prevMargin += 2)) || (prevMargin -= 2)
+        );
     }
   };
 
