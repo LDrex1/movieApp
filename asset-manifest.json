@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/movieApp/static/css/main.6a440106.css",
+    "main.js": "/movieApp/static/js/main.f8008768.js",
+    "static/media/Rectangle5.png": "/movieApp/static/media/Rectangle5.0a0aa706ce6af1b69819.png",
+    "index.html": "/movieApp/index.html",
+    "main.6a440106.css.map": "/movieApp/static/css/main.6a440106.css.map",
+    "main.f8008768.js.map": "/movieApp/static/js/main.f8008768.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a440106.css",
+    "static/js/main.f8008768.js"
+  ]
+}
