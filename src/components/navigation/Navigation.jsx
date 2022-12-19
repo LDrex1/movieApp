@@ -1,5 +1,5 @@
 import React from "react";
-import { AppBar, Button, Toolbar, Typography } from "@mui/material";
+import { AppBar, Button, Toolbar } from "@mui/material";
 
 function Navigation() {
   return (

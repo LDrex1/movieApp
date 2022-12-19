@@ -1,4 +1,4 @@
-import { Box, Card, CardMedia, Stack, Typography } from "@mui/material";
+import { Card, CardMedia, Stack, Typography } from "@mui/material";
 import React from "react";
 
 function Hero() {

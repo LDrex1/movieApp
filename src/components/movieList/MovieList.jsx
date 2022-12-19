@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import axios from "axios";
 
 function MovieList(props) {
@@ -11,7 +11,7 @@ function MovieList(props) {
       const resp = await axios.get(url);
       const movieData = resp.data;
       console.log(movieData, "d");
-      const { Search: search, Response: response } = movieData;
+      const { Search: search } = movieData;
       const seriesList = search.filter(({ Type }) => Type === "series");
       const movieList = search.filter(({ Type }) => Type === "movie");
       const episodeList = search.filter(({ Type }) => Type === "episode");
