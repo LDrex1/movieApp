@@ -40,8 +40,9 @@ function MovieRow({ movieList }) {
           sx={{ mb: 4, mt: 1, marginLeft: marginLeft }}
           onMouseMove={handleMouseOver}
         >
-          {movieList.map(({ Type: type, Title: title, Poster: poster }) => (
+          {movieList.map(({ Title: title, Poster: poster, imdbID }) => (
             <Card
+              key={imdbID}
               sx={{
                 width: { xs: "200px", sm: "300px" },
                 minWidth: { xs: "200px", sm: "300px" },
